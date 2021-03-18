@@ -1,0 +1,7 @@
+u = []
+n = int(input("please give your input"))
+i = 1
+while i<=n :
+	u.append(i)
+	print(*u)
+	i += 1
